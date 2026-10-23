@@ -5,5 +5,5 @@ For those creating zip archive software development kits (SDKs) for Gradle with 
 This template contains the basic files you need for creating a Gradle project or SDK, including the Gradle Wrapper and build configurations.
 
 ## Details
-The Gradle template I am making targets by default Java 25 and Gradle 9, but you can configure them in build.gradle
+The Gradle template targets by default Java 25, but you can configure it in build.gradle
 
