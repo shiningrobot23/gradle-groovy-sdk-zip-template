@@ -1,0 +1,30 @@
+//Gradle Template with Groovy
+plugins {
+    id 'java-library'
+}
+//change 'group' to your domain
+group = 'com.example'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+tasks.register('sdkZip', Zip) {
+    group = 'distribution'
+    description = 'Packages the SDK into a ZIP archive'
+    //rename 'archiveBaseName' to your project name
+    archiveBaseName = 'my-sdk'
+    archiveVersion = project.version
+    destinationDirectory = layout.buildDirectory.dir('distributions')
+
+    from(sourceSets.main.output) {
+        into 'my-sdk'
+    }
+
+    from('README.md') {
+        into 'my-sdk'
+    }
+}
