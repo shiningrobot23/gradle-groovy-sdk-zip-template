@@ -15,7 +15,7 @@ For IntelliJ: To open the project, go to File->Open and select your unzipped pro
 
 ### What to do next
 
-Before you start coding, you can take a look at `build.gradle`, `settings.gradle` and `properties.gradle`. Those files contain the Gradle configurations for the project. For beginners configuring Gradle for their first time, there would be comments outlining what you can edit and what you can't. Change every instance of 'my-sdk' and 'com.example' to your project and group names respectively.
+Before you start coding, you can take a look at `build.gradle`, `settings.gradle` and `properties.gradle`. Those files contain the Gradle configurations for the project. Change the configurations if needed and for beginners configuring Gradle for their first time, there would be comments outlining what you can edit and what you can't. Change every instance of 'my-sdk' and 'com.example' to your project and group names respectively.
 
 ## Reporting issues
 
