@@ -7,3 +7,7 @@ This template contains the basic files you need for creating a Gradle project or
 ## Details
 The Gradle template targets by default Java 25, but you can configure it in build.gradle
 
+## Recommended IDEs
+-IntelliJ
+-Eclipse
+
