@@ -12,7 +12,7 @@ Github Repository Template - Find the "Use This Template" Button, then "Create a
 
 Alternatively, download the setup package from Releases. Edit it after and once you're done, use the command `gradlew packageZipSdk` to package your zip SDK and distribute it.
 
-** NOTE: This downloaded ZIP archive is not a Gradle project and will not load in an IDE. You must create the SDK, then use the command `gradlew packageZipSdk` to create a zip archive of your SDK**
+** NOTE: This downloaded ZIP archive is not a Gradle project and will not load in an IDE. You must first complete your SDK with the template, then use the command `gradlew packageZipSdk` to create a zip archive of it**
 
 
 ## Reporting issues
