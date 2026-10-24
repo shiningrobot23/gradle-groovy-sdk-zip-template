@@ -1,5 +1,5 @@
 # gradle-sdk-zip-template
-For those creating zip archive software development kits (SDKs) for Gradle with Groovy DSL, this would be a great template to use!
+For those creating zip archive software development kits (SDKs) for Gradle with Groovy DSL, use this to create your own zip archived SDK.
 
 ## About
 This template contains the basic files you need for creating a Gradle project or SDK, including the Gradle Wrapper and build configurations.
@@ -8,20 +8,15 @@ This template contains the basic files you need for creating a Gradle project or
 The Gradle template targets by default Java 25, but you can configure it in build.gradle
 
 ### Setup Details
+Github Repository Template - Find the "Use This Template" Button and make this template yours. After you make it your repository, clone it and edit in on your desktop.
 
-To use this template, first download the zip file from the latest Release. Then move it to your projects and unzip it.
+Alternatively, download the setup package from Releases. Edit it after and once you're done, use the command `gradlew packageZipSdk` to package your zip SDK and distribute it.
 
-For IntelliJ: To open the project, go to File->Open and select your unzipped project template. Press "Okay". Then "Trust Project" if a popup appears asking if you trust the template. After that, just wait for the IDE to build the Gradle configurations and you can look at progress in the 'Build' area at the bottom of the window. Once it's done building the project, you can start editing!
+** NOTE: This downloaded ZIP archive is not a Gradle project and will not load in an IDE. You must create the SDK, then use the command `gradlew packageZipSdk` to create a zip archive of your SDK**
 
-### What to do next
-
-Before you start coding, you can take a look at `build.gradle`, `settings.gradle` and `properties.gradle`. Those files contain the Gradle configurations for the project. Change the configurations if needed and for beginners configuring Gradle for their first time, there would be comments outlining what you can edit and what you can't. Change every instance of 'my-sdk' and 'com.example' to your project and group names respectively.
 
 ## Reporting issues
 
 You can report issues in the "Issues Tab here: https://github.com/shiningrobot23/gradle-groovy-sdk-zip-template/issues
-
-## Recommended IDEs
--IntelliJ
 
 
