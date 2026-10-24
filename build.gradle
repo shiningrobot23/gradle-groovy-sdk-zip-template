@@ -8,9 +8,12 @@ version = '1.0.0'
 
 java {
     toolchain {
+        //Change to your JDK version if necessary
         languageVersion = JavaLanguageVersion.of(25)
     }
 }
+
+//Do not edit the tasks below
 
 tasks.register('packageSdkZip', Zip) {
     archiveFileName = 'sdk-template-1.0.0.zip'
