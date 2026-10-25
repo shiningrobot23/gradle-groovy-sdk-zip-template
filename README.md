@@ -8,7 +8,7 @@ This template contains the basic files you need for creating a Gradle project or
 The Gradle template targets by default Java 25, but you can configure it in build.gradle
 
 ### Setup Details
-Github Repository Template - Find the "Use This Template" Button, then "Create a new repository" and make this template yours. After you make it your repository, clone it and edit in on your desktop.
+Github Repository Template - Find the "Use This Template" Button, then "Create a new repository" and make this template yours. After you make it your repository, clone it and edit in on your desktop. You can also fork the repository and work on it.
 
 Alternatively, download the setup package from Releases. Edit it after and once you're done, use the command `gradlew packageZipSdk` to package your zip SDK and distribute it.
 
