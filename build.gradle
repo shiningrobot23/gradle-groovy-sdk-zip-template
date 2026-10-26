@@ -13,11 +13,11 @@ java {
     }
 }
 
-//Do not edit the tasks below
+//Do not edit the tasks below; these tasks compile the zip archive and editing may affect that
 
 tasks.register('packageSdkZip', Zip) {
     archiveFileName = 'sdk-template-1.0.0.zip'
-    destinationDirectory = layout.buildDirectory.dir("outputs")
+    destinationDirectory = layout.buildDirectory.dir("distribution")
     from('main') {
         into 'sdk'
     }

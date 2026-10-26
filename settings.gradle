@@ -1,2 +1,2 @@
-//rename to your project name
+//change 'rootProject.name' to your project name
 rootProject.name = 'my-sdk'
