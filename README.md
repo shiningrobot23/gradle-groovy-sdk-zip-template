@@ -1,4 +1,4 @@
-# gradle-sdk-zip-template
+# Gradle SDK Zip Template
 For those creating zip archive software development kits (SDKs) for Gradle with Groovy DSL, use this to create your own zip archived SDK.
 
 ## About
